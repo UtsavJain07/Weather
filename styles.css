@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    background: linear-gradient(135deg, #83a4d4, #b6fbff);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.nav-link {
+    color: #34495e;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #3498db;
+}
+
+/* Weather Card Styles */
+.weather-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.weather-card:hover {
+    transform: translateY(-5px);
+}
+
+.weather-card h2 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Form Styles */
+.form-label {
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.form-control {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 0.75rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+.form-text {
+    color: #7f8c8d;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 0.75rem;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .weather-card {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+}
